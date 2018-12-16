@@ -60,5 +60,5 @@ function replaceThatShit(){
   function slowSearch(){
       setTimeout(function() { searchYelp(address, restaurants[i]); i++; if (i < restaurants.length) { slowSearch(); } }, 1000);
   }
-  //slowSearch();
+  slowSearch();
 }
