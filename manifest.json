@@ -1,0 +1,11 @@
+{
+  "name": "Seamless Yelp",
+  "version": "0.01",
+  "description": "An extension to display yelp reviews of restaurants on delivery sites",
+  "permissions": ["https://api.yelp.com/"],
+  "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["https://seamless.com/search*", "https://www.seamless.com/search*"]
+  }],
+  "manifest_version": 2
+}
